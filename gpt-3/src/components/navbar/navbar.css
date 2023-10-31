@@ -11,3 +11,36 @@
 	justify-content: flex-start;
 	align-items: center;
 }
+
+.gpt3__navbar-links-logo {
+	margin-right: 2rem;
+}
+.gpt3__navbar-links-logo img {
+	width: 62.557px;
+	height: 16.016px;
+	flex-shrink: 0;
+}
+
+.gpt3__navbar-links-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.gpt3__navbar-sign {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.gpt3__navbar-links-container p,
+.gpt3__navbar-sign p,
+.gpt3__navbar-menu-container p {
+	color: #ffff;
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: capitalize;
+	margin: 0 1rem;
+	cursor: pointer;
+}
