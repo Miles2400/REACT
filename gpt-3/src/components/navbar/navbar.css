@@ -2,6 +2,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+
 	padding: 2rem 6rem;
 }
 
@@ -34,7 +35,7 @@
 
 .gpt3__navbar-links-container p,
 .gpt3__navbar-sign p,
-.gpt3__navbar-menu-container p {
+.gpt3__navbar-menu_container p {
 	color: #ffff;
 	font-family: var(--font-family);
 	font-weight: 500;
@@ -42,5 +43,20 @@
 	line-height: 25px;
 	text-transform: capitalize;
 	margin: 0 1rem;
+	cursor: pointer;
+}
+
+.gpt3__navbar-sign button,
+.gpt3__navbar-menu_container button {
+	padding: 0.5rem 1rem;
+	color: #ffff;
+	font-family: var(--font-family);
+	font-weight: 500;
+	line-height: 25px;
+	font-size: 18px;
+	background-color: #ff4820;
+	border-radius: 5px;
+	border: none;
+	outline: none;
 	cursor: pointer;
 }
