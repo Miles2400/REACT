@@ -47,9 +47,9 @@ a {
 }
 
 .gradient__text {
-	background: var(--gradient-text);
+	background: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%);
 	background-clip: text;
-	-webkit-background-clop: text;
+	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
