@@ -13,11 +13,11 @@
 
 .gpt3__header-content h1 {
 	font-family: var(--font-family);
-	font-weight: 800;
+	font-weight: 700;
 	font-style: normal;
 	line-height: 75px;
-	letter-spacing: -0.04em;
-	font-size: 62px;
+	letter-spacing: -0.07em;
+	font-size: 50px;
 }
 
 .gpt3__header-content p {
