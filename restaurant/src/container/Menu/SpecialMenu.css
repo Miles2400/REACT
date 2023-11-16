@@ -70,11 +70,12 @@
 
 @media screen and (max-width: 650px) {
 	.app__specialMenu_menu_img {
+		margin: 3rem 0;
 		width: 100%;
 	}
 
-	.app__specialMenu_menu_img {
-		margin: 3rem 0;
+	.app__specialMenu_menu_img img {
+		height: 700px;
 	}
 
 	.app__specialMenu-menu_heading {
