@@ -1,6 +1,11 @@
 body {
 	scroll-behavior: smooth;
 }
+
+body::-webkit-scrollbar {
+	display: none;
+}
+
 .section__padding {
 	padding: 4rem 6rem;
 }
