@@ -8,4 +8,5 @@ const FooterOverlay = () => (
 		<div className='app__footerOverlay-img app__bg' />
 	</div>
 );
+
 export default FooterOverlay;
