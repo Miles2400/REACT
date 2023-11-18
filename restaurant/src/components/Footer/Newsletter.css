@@ -31,6 +31,10 @@
 	border-radius: 2px;
 }
 
+.app__newsletter-input button:active {
+	opacity: 0.9;
+}
+
 @media screen and (min-width: 2000px) {
 	.app__newsletter-input input {
 		font-size: 2rem;
@@ -44,7 +48,7 @@
 
 	.app__newsletter-input input {
 		margin: 0 0 2rem 0;
-		width: 100%;
+		width: 80%;
 	}
 }
 
