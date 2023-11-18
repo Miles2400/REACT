@@ -7,8 +7,8 @@
 }
 
 .app__footerOverlay-black {
-	/* height: 25%; */
-	background-color: var(--color-black);
+	height: 25%;
+	background: var(--color-black);
 }
 
 .app__footerOverlay-img {
