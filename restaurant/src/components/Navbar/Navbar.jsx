@@ -5,7 +5,7 @@ import images from '../../constants/images';
 import './Navbar.css';
 
 const Navbar = () => {
-	const [toggleMenu, setToggleMenu] = React.useState(false);
+	const [toggleMenu, setToggleMenu] = useState(false);
 
 	return (
 		<nav className='app__navbar'>
