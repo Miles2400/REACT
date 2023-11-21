@@ -1,22 +1,34 @@
-import './App.css'
-import { SubHeading, Newsletter, FooterOverlay, MenuItem, Navbar, } from './components'
-import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu, } from './container'
+import styles from "./style";
+// import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
 
-function App() {
+const App = () => (
+    <div className="bg-primary w-full overflow-hidden">
+        <p>hello</p>
+        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+            <div className={`${styles.boxWidth}`}>
+                <Navbar />
+            </div>
+        </div>
 
-	return (
-		<div className='App'>
-			<Navbar />
-			<Header />
-			<AboutUs />
-			<SpecialMenu />
-			<Chef />
-			<Intro />
-			<Laurels />
-			<Gallery />
-			<FindUs />
-			<Footer />
-		</div>
-	)
-}
-export default App
+        <div className={`bg-primary ${styles.flexStart}`}>
+            <div className={`${styles.boxWidth}`}>
+                <Hero />
+            </div>
+        </div>
+
+        <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+            <div className={`${styles.boxWidth}`}>
+                <Stats />
+                <Business />
+                <Billing />
+                <CardDeal />
+                <Testimonials />
+                <Clients />
+                <CTA />
+                <Footer />
+            </div>
+        </div>
+    </div>
+);
+
+export default App;
