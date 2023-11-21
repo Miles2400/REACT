@@ -7,8 +7,10 @@ const Navbar = () => {
 	const [toggle, setToggle] = useState(false);
 
 	return (
-		<nav className="w-full flex py-6 justify-between items-center navbar">
-			<img src={logo} alt="logo" className='w-[124px] h-[32px]' />
+		<nav className="w-full flex py-6 justify-between items-center navbar mb-20" >
+			<a href="#home">
+				<img src={logo} alt="logo" className='w-[124px] h-[32px]' />
+			</a>
 
 			<ul className="list-none sm:flex hidden justify-end items-center flex-1">
 				{navLinks.map((nav, index) => (
@@ -38,7 +40,6 @@ const Navbar = () => {
 						))}
 					</ul>
 				</div>
-
 			</div>
 		</nav>
 	)
