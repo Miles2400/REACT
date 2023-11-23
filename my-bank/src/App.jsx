@@ -26,9 +26,9 @@ const App = () => (
                 <Testimonials />
                 <Clients />
                 <CTA />
-                <div className="flex">
-                    <a href="#home" className="bg-secondary">
-                        <button type="button">Back to Top</button>
+                <div className="flex sm:justify-end justify-center md:mr-[60px] mr-0">
+                    <a href="#home" className="py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none rounded-[8px]">
+                        <button type="button">Back To Top</button>
                     </a>
                 </div>
                 <Footer />
