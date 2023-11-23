@@ -1,4 +1,5 @@
 import styles from "./style";
+import './index.css'
 import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
 
 const App = () => (
@@ -25,6 +26,11 @@ const App = () => (
                 <Testimonials />
                 <Clients />
                 <CTA />
+                <div className="flex">
+                    <a href="#home" className="bg-secondary">
+                        <button type="button">Back to Top</button>
+                    </a>
+                </div>
                 <Footer />
             </div>
         </div>
