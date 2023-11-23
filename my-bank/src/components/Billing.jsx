@@ -19,11 +19,11 @@ const Billing = () => {
                     Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.
                 </p>
                 <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
-                    <a href="/">
-                        <img src={apple} alt="apple store" className='w-[128px] h-[42px] object-contain m-5' />
+                    <a href="https://www.apple.com">
+                        <img src={apple} alt="apple store" className='w-[128px] h-[42px] object-contain m-5 hover:border border-blue-400 rounded-[5px]' />
                     </a>
-                    <a href="/">
-                        <img src={google} alt="google play store" className='w-[128px] h-[42px] object-contain mt-5' />
+                    <a href="https://play.google.com" >
+                        <img src={google} alt="google play store" className='w-[128px] h-[42px] object-contain mt-5 hover:border border-blue-400 rounded-[5px] ' />
                     </a>
                 </div>
             </div>
