@@ -1,5 +1,5 @@
 import './App.css'
-import { SubHeading, Newsletter, FooterOverlay, MenuItem, Navbar, } from './components'
+import { Navbar } from './components'
 import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu, } from './container'
 
 function App() {
